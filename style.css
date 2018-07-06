@@ -1,0 +1,12 @@
+/* added css properties to header element */
+header {
+    background-color:green;
+    color:white;
+    padding: 20px 20px 20px 20px;
+}
+/* added media query to change color at max 450 px */
+ @media (max-width:450px) {
+     header {
+    background-color: blue;
+    }
+ }
